@@ -1,0 +1,26 @@
+include Produto.php
+include ItensPedido.php
+
+
+itensPedido = new ItensPedido();
+produto = new Produto();
+
+
+produto->setQtdeProduto(3);
+produto->setValProduto(10,50);
+
+//array de itens na itensPedido
+
+//adiciona no array varios objetos do tipo Produto
+
+//forEach para o preço total (função ValorTotal)
+
+//foreach para a quantidade de itens (função QtdeTotal)
+
+-------------
+Pedido
+//tem um  objeto do tipo itensPedido
+//getIDItensPedido
+
+Data
+Numero
